@@ -1,0 +1,8 @@
+string= 'ABCD'
+lissta= ['Maria', 'Helena',1, 2,3,'Eduarda']
+tupla= 'Python', 'é', 'legal'
+
+a, b,*_ =lissta
+print(a,b)
+
+print(*lissta, sep='\n')
